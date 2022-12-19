@@ -37,6 +37,6 @@ public class Elf {
     }
     //toString method, returns the elf's name and their job
     public String toString(){
-        return name + " the elf makes $" + job.getPay() + " per gift working as a " + job.getJobTitle() + ".\n" + name + " has made $" + money + " so far.";
+        return name + " the elf makes $" + job.getPay() + " per gift working as a " + job.getJobTitle() + " and has made $" + Math.round(money) + " so far.";
     }
 }
