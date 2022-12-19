@@ -31,7 +31,6 @@ public class Gift {
         return false;
     }
     
-    //puts gift in bag
     public void putInBag(Elf elf){
         isInBag = true;
         //adds numGifts here, as the gift only counts if it is in Santa's bag.
